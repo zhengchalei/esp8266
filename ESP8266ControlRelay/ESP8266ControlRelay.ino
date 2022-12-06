@@ -11,7 +11,7 @@ int relay = 4;
 const char* ssid = "Xiaomi_C0AC";
 const char* passphrase = "12345678";
 
-const char* mqttServerHost = "";
+const char* mqttServerHost = "broker.emqx.io";
 const int mqttServerPort = 1883;
 const char* mqttTopic = "relay/command";
 
